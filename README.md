@@ -1,14 +1,13 @@
-<p align="center">
-  <img src="https://firebasestorage.googleapis.com/v0/b/cuku-mobile.appspot.com/o/banner.png?alt=media&token=a4435202-b5aa-47c5-94ab-9e43103b7ba0">
-</p>
-
 # Yazilim Çukurova Web App 🚀
+
+![Yazılım Çukurova Banner](banner.png)
 
 Welcome to the Yazilim Çukurova's web application repository. This web app serves as a platform to showcase our society's activities, projects, and resources related to software development.
 
 Visit the live application: [🔗 Yazilim Çukurova Web App](https://www.yazilimcukurova.com)
 
 ## 📚 Table of Contents
+
 - [Yazilim Çukurova Web App 🚀](#yazilim-çukurova-web-app-)
   - [📚 Table of Contents](#-table-of-contents)
   - [ℹ️ About](#ℹ️-about)
@@ -33,10 +32,8 @@ The Yazilim Çukurova Society is a group of enthusiastic people committed to adv
 To run this web app locally for development or contribute to its improvement, follow these steps:
 
 1. **Clone the repository:**
-   
+
    ```git clone https://github.com/yazilimcukurova/yazilimcukurova-web-app.git```
-
-
 
 ## 🚀 Roadmap
 
@@ -50,14 +47,6 @@ Our plans for the future of the Yazilim Çukurova Web App, with a software socie
 
 If you have any questions or want to get in touch with us, you can reach us at [iletisim.yazilimcukurova@gmail.com](mailto:iletisim.yazilimcukurova@gmail.com) or visit our [web site](https://www.yazilimcukurova.com).
 
-<p align="center">
-  <img src="https://firebasestorage.googleapis.com/v0/b/cuku-mobile.appspot.com/o/banner.png?alt=media&token=a4435202-b5aa-47c5-94ab-9e43103b7ba0">
-</p>
-
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
