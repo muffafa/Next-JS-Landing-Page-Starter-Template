@@ -12,8 +12,8 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li className="hidden md:block">
-          <Link href="https://linktr.ee/yazilimcukurova" target="_blank">
-            Üyelik İçin Tıkla
+          <Link href="http://bit.ly/ycukurova" target="_blank">
+            Aramıza Katıl
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -29,8 +29,8 @@ const Hero = () => (
         }
         description="Geleceği kodlayan, inovasyona yön veren bir topluluk..."
         button={
-          <Link href="https://linktr.ee/yazilimcukurova" target="_blank">
-            <Button xl>Aramıza Katıl 🤩</Button>
+          <Link href="https://bit.ly/ycsunum" target="_blank">
+            <Button xl>Tanıtım Sunumu 🤩</Button>
           </Link>
         }
       />
