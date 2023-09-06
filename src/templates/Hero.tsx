@@ -29,9 +29,17 @@ const Hero = () => (
         }
         description="Geleceği kodlayan, inovasyona yön veren bir topluluk..."
         button={
-          <Link href="https://bit.ly/ycsunum" target="_blank">
-            <Button xl>Tanıtım Sunumu 🤩</Button>
-          </Link>
+          <>
+            <Link href="https://bit.ly/ycsunum" target="_blank">
+              <Button xl>Tanıtım Sunumu 🤩</Button>
+            </Link>
+
+            <div className="mt-4 md:hidden">
+              <Link href="http://bit.ly/ycukurova" target="_blank">
+                <Button xl>Aramıza Katıl</Button>
+              </Link>
+            </div>
+          </>
         }
       />
     </Section>
