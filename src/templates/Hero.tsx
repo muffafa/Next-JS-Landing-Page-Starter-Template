@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import { Background } from '../background/Background';
 import { Button } from '../button/Button';
-import { HeroOneButton } from '../hero/HeroOneButton';
+import { HeroWithButtons } from '../hero/HeroWithButtons';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
@@ -13,14 +13,14 @@ const Hero = () => (
       <NavbarTwoColumns logo={<Logo xl />}>
         <li className="hidden md:block">
           <Link href="http://bit.ly/ycukurova" target="_blank">
-            Aramıza Katıl
+            Hadi Aramıza Katıl! 🤩
           </Link>
         </li>
       </NavbarTwoColumns>
     </Section>
 
     <Section yPadding="pt-20 pb-32">
-      <HeroOneButton
+      <HeroWithButtons
         title={
           <>
             {'Yazılıma İlgi Duyuyorsan,\n'}
@@ -28,18 +28,20 @@ const Hero = () => (
           </>
         }
         description="Geleceği kodlayan, inovasyona yön veren bir topluluk..."
-        button={
-          <>
-            <Link href="https://bit.ly/ycsunum" target="_blank">
-              <Button xl>Tanıtım Sunumu 🤩</Button>
-            </Link>
-
-            <div className="mt-4 md:hidden">
-              <Link href="http://bit.ly/ycukurova" target="_blank">
-                <Button xl>Aramıza Katıl</Button>
+        buttons={
+          <div>
+            <div>
+              <Link href="https://bit.ly/ycsunum" target="_blank">
+                <Button xl>Tanıtım Sunumumuz 👀</Button>
               </Link>
             </div>
-          </>
+
+            <div className="mt-5 md:hidden">
+              <Link href="http://bit.ly/ycukurova" target="_blank">
+                <Button xl>Hadi Aramıza Katıl! 🤩</Button>
+              </Link>
+            </div>
+          </div>
         }
       />
     </Section>
