@@ -108,8 +108,9 @@ const Footer = () => (
           </>
         }
       >
-        <li>
+        <li className="space-x-2">
           <Link href="/">Anasayfa</Link>
+          <Link href="/cumhuriyet">Cumhuriyet</Link>
         </li>
       </CenteredFooter>
     </Section>
