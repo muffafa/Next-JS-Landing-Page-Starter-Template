@@ -10,15 +10,19 @@ function Cumhuriyet() {
   return (
     // make background image fill mode
     <div className="bg-[#E3CEB9]">
-      <audio
-        controls
-        autoPlay
-        loop={true}
-        src="/assets//cumhuriyet/cumhuriyet-gazetecisi.mp3"
-      >
-        Your browser does not support the
-        <code>audio</code> element.
-      </audio>
+      <div className="flex items-center justify-center">
+        <audio
+          className="mt-5 w-1/2"
+          controls
+          autoPlay
+          loop={true}
+          src="/assets//cumhuriyet/cumhuriyet-gazetecisi.mp3"
+        >
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
+      </div>
+
       {/* <Image
         src={gazeteBg}
         alt="Background of newspaper"
