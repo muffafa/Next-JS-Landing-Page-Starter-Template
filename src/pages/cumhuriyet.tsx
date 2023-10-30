@@ -11,6 +11,7 @@ function Cumhuriyet() {
     // make background image fill mode
     <div className="bg-[#E3CEB9]">
       <audio
+        controls
         autoPlay
         loop={true}
         src="/assets//cumhuriyet/cumhuriyet-gazetecisi.mp3"
