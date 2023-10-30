@@ -2,14 +2,23 @@ import Image from 'next/image';
 import yuzincuYilLogo from 'public/assets/cumhuriyet/100-yil-logo.png';
 import ataturkKursude from 'public/assets/cumhuriyet/ataturk-kursude.png';
 import ataturkVeBayrak from 'public/assets/cumhuriyet/ataturk-ve-bayrak.png';
-// import gazeteBg from 'public/assets/cumhuriyet/gazete-bg.png';
+import gazeteBg from 'public/assets/cumhuriyet/gazete-bg.png';
 import tbmmVeAtaturk from 'public/assets/cumhuriyet/tbmm-ataturk.png';
 import React from 'react';
 
 function Cumhuriyet() {
   return (
     // make background image fill mode
-    <div className="bg-[#E3CEB9]">
+    <div
+      className="bg-[#E3CEB9]"
+      style={{
+        backgroundImage: `url(${gazeteBg.src})`,
+        width: '100%',
+        height: '100%',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+      }}
+    >
       <div className="flex items-center justify-center">
         <audio
           className="mt-5 w-1/2"
