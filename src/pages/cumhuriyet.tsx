@@ -10,7 +10,6 @@ function Cumhuriyet() {
   return (
     // make background image fill mode
     <div
-      className="bg-[#E3CEB9]"
       style={{
         backgroundImage: `url(${gazeteBg.src})`,
         width: '100%',
